@@ -30,11 +30,11 @@ public class HelloController {
     @GetMapping("hello-api")
     @ResponseBody
     public Hello helloApi(@RequestParam("name") String name) {
-        Hello hello = new Hello();
+        Hello hello = new Hello();// 자동 완성 cmd + shift + enter
         hello.setName(name);
         return hello;
     }
-
+// 프로퍼티 작동방식??? 자바빈 표준방식
     static class Hello {
         private String name;
 
