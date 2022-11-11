@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MemberServiceTest {
 
     @Test
-    void join() {
+    void 회원가입() {
     }
 
     @Test
