@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class MemberService {
-
+    ///// test 파일 단축키 cmd + shift + T///////
     private final MemberRepository memberRepository = new MemoryMemberRepository();
 
     /**
